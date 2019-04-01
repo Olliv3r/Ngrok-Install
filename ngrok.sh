@@ -3,7 +3,7 @@
 # autor: olive
 
 ngrok() {
-
+	bash banner.sh
 	echo "
 	1 - Instalar ngrok
 	2 - Sobre ngrok
