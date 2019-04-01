@@ -2,7 +2,9 @@
 # ngrok
 # autor: olive
 
+while true;do
 ngrok() {
+	clear
 	bash banner.sh
 	echo "
 	1 - Instalar ngrok
@@ -88,3 +90,4 @@ Seu uso é bem fácil: basta descompactar o arquivo .zip e executar o pequeno ar
 	fi
 }
 ngrok
+done
