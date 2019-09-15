@@ -20,6 +20,7 @@ ngrok() {
 
 		case $(dpkg --print-architecture) in
 			'arm')
+				echo "Instalando para ARM..."
 				apt update
 				apt install axel
 				axel https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
@@ -31,6 +32,7 @@ ngrok() {
 				echo "Usage: ngrok -h"
 				echo "";;
 			'amd64')
+				echo "Instalando para amd64..."
 				apt update
 				apt install axel
 				axel https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-darwin-amd64.zip
@@ -42,7 +44,8 @@ ngrok() {
 				echo "Usage: ngrok -h"
 				echo "";;
 			'386')
-				apt updat
+				echo "Instalando para 386..."
+				apt update
 				apt install axel
 				axel https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-darwin-386.zip
 				unzip ngrok-stable-darwin-386.zip
@@ -52,7 +55,8 @@ ngrok() {
 				echo "Usage: ngrok -h"
 				echo "";;
 			'arm64')
-				apt updat
+				echo "Instalando para amd64..."
+				apt update
 				apt install axel
 				axel https://bin.equinox.io/a/nmkK3DkqZEB/ngrok-2.2.8-linux-arm64.zip
 				unzip ngrok-2.2.8-linux-arm64.zip
