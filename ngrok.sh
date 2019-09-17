@@ -7,9 +7,9 @@ ngrok() {
 	clear
 	bash banner.sh
 	echo "
-	1 - Instalar ngrok
-	2 - Sobre ngrok
-	3 - Exit
+	1) Instalar ngrok
+	2) Sobre ngrok
+	3) Exit
 	"
 	echo ""
 	echo -n "Ngrok-install>> "
